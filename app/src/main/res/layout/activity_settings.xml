@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/full_name_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name" />
+
+        <EditText
+            android:id="@+id/email_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/enterance_year_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enterance Year" />
+
+        <EditText
+            android:id="@+id/graduate_year_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Graduate Year" />
+
+        <EditText
+            android:id="@+id/graduate_level_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Graduate Level" />
+
+        <EditText
+            android:id="@+id/job_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Job" />
+
+        <EditText
+            android:id="@+id/phone_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone" />
+
+        <EditText
+            android:id="@+id/new_password_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/update_profile_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/yellow"/>
+
+        <Button
+            android:id="@+id/update_password_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Emaıl and Password"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/blue"/>
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to maınscreen"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:id="@+id/upload_profile_photo_button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Upload profıle photo"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
